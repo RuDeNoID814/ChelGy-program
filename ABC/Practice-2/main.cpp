@@ -24,6 +24,14 @@ int main()
     cout << "d = "; cin >> d;
     cout << "e = "; cin >> e;
 
+    int vars[] = {a,b,c,d,e};
+    for (int i=0 ; i < 5 ; i++) {
+        if (vars[i] < 1 || vars[i] > 100) {
+            cout << "Ошибка: значения должны быть от 1 до 100" << endl;
+            return 1;
+        }
+    }
+
     __asm__ (
         "mov %1, %%eax \n\t"                                        // 1(a) input add in register eax
         "add %2, %%eax \n\t"                                        // 2(b) addition with register eax(a) = a + b

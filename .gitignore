@@ -8,6 +8,7 @@ main
 *.cbp
 *.layout
 lab2
+main
 
 # C#
 Dockerfile

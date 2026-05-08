@@ -1,3 +1,5 @@
+.gitignore
+
 # C++
 bin/
 obj/
@@ -5,6 +7,7 @@ obj/
 main
 *.cbp
 *.layout
+lab2
 
 # C#
 Dockerfile

@@ -12,7 +12,7 @@
     - [Практика 1](./ABC/Practice-1)
     <details>
     <summary>
-    - [Практика 2](./ABC/Practice-2)
+    <a href="./ABC/Practice-2">Практика 2</a>
     </summary>
     
     Ассемблерная вставка в C++, вычисляет 'x=(((a+b)*c)-d)/e'.

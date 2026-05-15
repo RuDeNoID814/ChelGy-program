@@ -1,12 +1,5 @@
 #include <iostream>
 
-//Программа должна запросить значения переменных у пользователя. Написать ассемблерную вставку, которая вычислит a+b и запишет в две переменные типа bool наличие переполнения для знаковых/беззнаковых чисел.
-//Программа должна вывести на экран:
-//Результат сложения для чисел со знаком
-//Результат сложения для чисел без знака
-//Было ли переполнение для чисел со знаком
-//Было ли переполнение для чисел без знака
-
 using namespace std;
 
 int main()
@@ -53,32 +46,3 @@ int main()
         cout << "Беззнаковый(unsigned) = " << (int)z << " - переполнения не произошло \n";
 
     }
-
-
-//#include <stdio.h>
-//:OUTPUT
-//:INPUT
-//:Clobbers
-//r - register
-//m - memory
-//p - address
-//= - write
-//+ - read and write
-//int main()
-//{
-//	unsigned char a=254,b=1,z;
-//	char isOverFlow=0;
-//    __asm__ (
-//    "mov %2,%%al \n\t"
-//    "add %3,%%al \n\t"
-//    "mov %%al,%1 \n\t"
-//    "jnc isof \n\t"    ЕСЛИ нетпереполнения то 0 и переходим к isof
-//    "movb $1,%0 \n\t"      ЕСЛИ переполнение то 1
-//    "isof: \n\t"
-//    :"=m"(isOverFlow),"=m"(z):"m"(a),"m"(b):"%eax","memory","cc");
-//    printf("%d\n",*(signed char*)(&z));
-//    printf("%u\n",z);
-//    if(isOverFlow) printf("Overflow (unsigned)\n");
-//    else printf("Not Overflow (unsigned)\n");
-//	return 0;
-//}

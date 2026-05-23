@@ -13,6 +13,7 @@
     
     Написать Unit тесты на фреймворке xUnit.
     Написать их для файла CheckerBoardPosition из лабы 3.
+    [*Перейти к практике*](https://seadox.ru/docs/avb)
     </details>
 
 - [ABC](./ABC)

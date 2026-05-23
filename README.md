@@ -6,6 +6,14 @@
 
 - [CSharp](./CSharp)  
     - [Практика 2](./CSharp/Practice-2)
+    <details>
+    <summary>
+    <a href="./CSharp/Practice-10">Пракитка 10</a>
+    </summary>
+    
+    Написать Unit тесты на фреймворке xUnit.
+    Написать их для файла CheckerBoardPosition из лабы 3.
+    </details>
 
 - [ABC](./ABC)
 

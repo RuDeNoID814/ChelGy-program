@@ -47,6 +47,6 @@ public class CheckerBoardPosition(byte x, byte y) : IParsable<CheckerBoardPositi
         }
 
         result = null;
-        return false;
+        return false;   
     }
 }

@@ -15,6 +15,14 @@
     Написать их для файла CheckerBoardPosition из лабы 3.
     [*Перейти к практике*](https://seadox.ru/docs/avb)
     </details>
+    <details>
+    <summary>
+    <a href="./CSharp/Practice-11">Пракитка 11</a>
+    </summary>
+    
+    Реализовать CRUD-функционал для сущности Note (Id, Text, CreatedAt) по аналогии с примером Student из [репозитория](https://github.com/MindHardt/arch-example/tree/efcore) учителя. Написать тесты на все CRUD-операции.
+    [*Перейти к практике*](https://seadox.ru/docs/ulc)
+    </details>
 
 - [ABC](./ABC)
 

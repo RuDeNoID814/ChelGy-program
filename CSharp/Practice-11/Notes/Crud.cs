@@ -29,7 +29,7 @@ public class Crud
         return result;
     }
     
-    // Поиск по id
+    // READ по id
     public static async Task<Note?> Read(int id, CancellationToken ct = default)
     {
         await using var db = new NotesContext();

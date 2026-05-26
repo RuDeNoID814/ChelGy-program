@@ -2,8 +2,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Notes;
 
+// Методы для работы с данными в БД
 public class Crud
 {
+    public static async Task<User> Create(string text,)
+    
+    
+    
+    
+    // NOTE
     
     // создает новый note и сохраняет его в БД.
     public static async Task<Note> Create(string text, DateTimeOffset createdAt, CancellationToken ct = default)

@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Notes;
 
+
+// Файл который подключается к БД
 public class NotesContext : DbContext
 {
     public DbSet<Note> Notes => Set<Note>();
@@ -13,4 +15,6 @@ public class NotesContext : DbContext
         optionsBuilder.EnableSensitiveDataLogging();
         base.OnConfiguring(optionsBuilder);
     }
+    
+    public DbSet<User> Users => Set<User>();
 }

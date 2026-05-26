@@ -10,8 +10,4 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.0" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Compile Include="obj\User.cs" />
-    </ItemGroup>
 </Project>

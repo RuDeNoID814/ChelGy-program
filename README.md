@@ -32,9 +32,18 @@
 </details>
 
 <details>
-<summary><a href="./CSharp/Practice-11">Практика 12</a></summary>
+<summary><a href="./CSharp/Practice-12">Практика 12</a></summary>
 
 **Практика 12** — Дополнить практику 11, добавив сущность `User`. У одного пользователя может быть много заметок, заметка не может существовать без пользователя. Реализовать CRUD для пользователей и метод получения всех заметок конкретного пользователя.
+
+</details>
+
+<details>
+<summary><a href="./CSharp/Practice-13">Практика 13</a></summary>
+
+**Практика 13** E2E тесты для REST API на ASP.NET Core. Реализовать CRUD эндпоинты для сущности Book (Id(int), Name(string), Author(string), ReleaseDate(DateOnly(Nullable))) и написаны E2E тесты через Microsoft.AspNetCore.Mvc.Testing с in-memory SQLite.
+
+[*Перейти к практике*](https://seadox.ru/docs/x3y)
 
 </details>
 

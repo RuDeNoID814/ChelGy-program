@@ -14,3 +14,4 @@ main
 Dockerfile
 .idea/
 *.user
+*.db

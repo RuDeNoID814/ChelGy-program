@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksApi", "BooksApi\BooksApi.csproj", "{6E32CEE2-C0FB-46D9-A2DE-968D805195A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksApi.Tests", "BooksApi.Tests\BooksApi.Tests.csproj", "{3D76807A-7477-4C1D-92F2-2B8551D04159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E32CEE2-C0FB-46D9-A2DE-968D805195A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E32CEE2-C0FB-46D9-A2DE-968D805195A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E32CEE2-C0FB-46D9-A2DE-968D805195A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E32CEE2-C0FB-46D9-A2DE-968D805195A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D76807A-7477-4C1D-92F2-2B8551D04159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D76807A-7477-4C1D-92F2-2B8551D04159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D76807A-7477-4C1D-92F2-2B8551D04159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D76807A-7477-4C1D-92F2-2B8551D04159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

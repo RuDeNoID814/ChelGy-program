@@ -23,11 +23,16 @@
 </details>
 
 <details>
-<summary><a href="./CSharp/Practice-11">Практика 11 / Практика 12</a></summary>
+<summary><a href="./CSharp/Practice-11">Практика 11</a></summary>
 
 **Практика 11** — Реализовать CRUD-функционал для сущности `Note` (Id, Text, CreatedAt) по аналогии с примером Student из [репозитория учителя](https://github.com/MindHardt/arch-example/tree/efcore). Написать тесты на все CRUD-операции.
 
 [*Перейти к практике*](https://seadox.ru/docs/ulc)
+
+</details>
+
+<details>
+<summary><a href="./CSharp/Practice-11">Практика 12</a></summary>
 
 **Практика 12** — Дополнить практику 11, добавив сущность `User`. У одного пользователя может быть много заметок, заметка не может существовать без пользователя. Реализовать CRUD для пользователей и метод получения всех заметок конкретного пользователя.
 

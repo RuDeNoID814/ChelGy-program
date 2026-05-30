@@ -17,7 +17,8 @@ public class UnitTest1
         await using var db = new NotesContext();
         await db.Database.EnsureDeletedAsync();
         await db.Database.EnsureCreatedAsync();
-        var note = await Crud.Create("tested note", DateTimeOffset.Now);
+        var user = await Crud.CreateUser("test user");
+        var note = await Crud.CreateNote("tested note", DateTimeOffset.Now, user.Id);
         Assert.NotNull(note);
         Assert.True(note.Id > 0);
     }
@@ -29,8 +30,9 @@ public class UnitTest1
         await using var db = new NotesContext();
         await db.Database.EnsureDeletedAsync();
         await db.Database.EnsureCreatedAsync();
-        var note = await Crud.Create("tested note", DateTimeOffset.Now);
-        var result = await Crud.Read("tested note");
+        var user = await Crud.CreateUser("test user");
+        var note = await Crud.CreateNote("tested note", DateTimeOffset.Now, user.Id);
+        var result = await Crud.ReadNotes("tested note");
         Assert.NotNull(result);
     }
     
@@ -41,8 +43,9 @@ public class UnitTest1
         await using var db = new NotesContext();
         await db.Database.EnsureDeletedAsync();
         await db.Database.EnsureCreatedAsync();
-        var note = await Crud.Create("tested note", DateTimeOffset.Now);
-        var result = await Crud.Read(note.Id);
+        var user = await Crud.CreateUser("test user");
+        var note = await Crud.CreateNote("tested note", DateTimeOffset.Now,  user.Id);
+        var result = await Crud.ReadNote(note.Id);
         Assert.NotNull(result);
     }
     
@@ -53,8 +56,9 @@ public class UnitTest1
         await using var db = new NotesContext();
         await db.Database.EnsureDeletedAsync();
         await db.Database.EnsureCreatedAsync();
-        var note = await Crud.Create("tested note", DateTimeOffset.Now);
-        await Crud.Update(note, "update tested");
+        var user = await Crud.CreateUser("test user");
+        var note = await Crud.CreateNote("tested note", DateTimeOffset.Now, user.Id);
+        await Crud.UpdateNote(note, "update tested");
         Assert.Equal("update tested", note.Text);
     }
     
@@ -65,9 +69,10 @@ public class UnitTest1
         await using var db = new NotesContext();
         await db.Database.EnsureDeletedAsync();
         await db.Database.EnsureCreatedAsync();
-        var note = await Crud.Create("tested note", DateTimeOffset.Now);
-        await Crud.Delete(note);
-        var result = await Crud.Read("tested note");
+        var  user = await Crud.CreateUser("test user");
+        var note = await Crud.CreateNote("tested note", DateTimeOffset.Now,  user.Id);
+        await Crud.DeleteNote(note);
+        var result = await Crud.ReadNotes("tested note");
         Assert.Empty(result);
     }
 }

@@ -47,6 +47,17 @@
 
 </details>
 
+<details>
+<summary><a href="https://github.com/RuDeNoID814/MathEx_Blazor">Практика 14</a></summary>
+
+**Практика 14** (необязательная) — веб-приложение на Blazor SSR. Сделан сборник вопросов/ответов по математическому анализу (MathEx) с карточками: добавление, редактирование, удаление, поиск в реальном времени. Формулы рендерятся через MathJax. Стек: Blazor Web App (SSR + InteractiveServer), EFCore + SQLite, Bootstrap 5.
+
+Основан на проекте [MathEx](https://github.com/RuDeNoID814/MathEx).
+
+[*Перейти к практике*](https://seadox.ru/docs/f57)
+
+</details>
+
 ---
 
 ### ABC

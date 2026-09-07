@@ -1,20 +1,24 @@
 # ChelGy-program
 
+<div align="center">
+
 [![ЧелГУ](https://img.shields.io/badge/университет-ЧелГУ-1E4E9F?style=flat-square)](https://www.csu.ru)
-![Тип](https://img.shields.io/badge/репозиторий-учебные_практики-495057?style=flat-square)
+![Тип](https://img.shields.io/badge/репозиторий-учебные_практики-EA580C?style=flat-square)
 
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
+</div>
+
 Репозиторий с практиками по **C#**, **ABC** и **Java**.
 
 ---
 
-## 📚 1 курс
+## 📗 1 курс
 
 <details open>
-<summary><b>💻 C#</b> — 6 практик</summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="18" align="top"> <b>C#</b> — 6 практик</summary>
 <br>
 
 <details>
@@ -72,7 +76,7 @@
 </details>
 
 <details>
-<summary><b>⚙️ ABC</b> — 5 практик <sup>C++ + Assembly</sup></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="18" align="top"> <b>ABC</b> — 5 практик <sup>C++ + Assembly</sup></summary>
 <br>
 
 <details>
@@ -125,16 +129,16 @@
 
 ---
 
-## 🎓 2 курс
+## 📘 2 курс
 
 <details open>
-<summary><b>☕ Java</b> — 1 практика</summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="18" align="top"> <b>Java</b> — 1 практика</summary>
 <br>
 
 <details>
-<summary><a href="./Java/lab1">Практика 1</a> <img src="https://img.shields.io/badge/progress-4%2F8-yellow?style=flat-square" alt="progress"></summary>
+<summary><a href="./Java/lab1">Практика 1</a> <img src="https://img.shields.io/badge/выполнено-8%2F8-brightgreen?style=flat-square" alt="done"></summary>
 
-**Практика 1** — Работа с консольными утилитами JDK (`javac`, `java`) без IDE. Пока сделал 4 шага: hello world в одной папке, разделение на `src/` и `bin/`, два связанных класса, подключение внешнего `.class` через classpath.
+**Практика 1** — Работа с консольными утилитами JDK (`javac`, `java`, `jar`) без IDE. Все 8 шагов: hello world, разделение на `src/` и `bin/`, два связанных класса, подключение внешнего `.class` через classpath, подключение jar-библиотеки, командный файл, упаковка своего проекта в jar, executable jar с манифестом.
 
 [*Перейти к практике*](https://github.com/ulearn-me-csu-java/javac/blob/master/Prakticheskoe_zadanie_1_Konsolnye_utility_JDK.pdf)
 

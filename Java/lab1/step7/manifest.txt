@@ -1,0 +1,2 @@
+main-class: Hello
+class-path: lib/secret.jar

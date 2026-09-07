@@ -1,10 +1,21 @@
 # ChelGy-program
 
-Репозиторий с практиками по **C#** и **ABC**.
+[![ЧелГУ](https://img.shields.io/badge/университет-ЧелГУ-1E4E9F?style=flat-square)](https://www.csu.ru)
+![Тип](https://img.shields.io/badge/репозиторий-учебные_практики-495057?style=flat-square)
 
-## Структура
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-### C#
+Репозиторий с практиками по **C#**, **ABC** и **Java**.
+
+---
+
+## 📚 1 курс
+
+<details open>
+<summary><b>💻 C#</b> — 6 практик</summary>
+<br>
 
 <details>
 <summary><a href="./CSharp/Practice-2">Практика 2</a></summary>
@@ -48,9 +59,9 @@
 </details>
 
 <details>
-<summary><a href="https://github.com/RuDeNoID814/MathEx_Blazor">Практика 14</a></summary>
+<summary><a href="https://github.com/RuDeNoID814/MathEx_Blazor">Практика 14</a> <sup>необязательная</sup></summary>
 
-**Практика 14** (необязательная) — веб-приложение на Blazor SSR. Сделан сборник вопросов/ответов по математическому анализу (MathEx) с карточками: добавление, редактирование, удаление, поиск в реальном времени. Формулы рендерятся через MathJax. Стек: Blazor Web App (SSR + InteractiveServer), EFCore + SQLite, Bootstrap 5.
+**Практика 14** — веб-приложение на Blazor SSR. Сделан сборник вопросов/ответов по математическому анализу (MathEx) с карточками: добавление, редактирование, удаление, поиск в реальном времени. Формулы рендерятся через MathJax. Стек: Blazor Web App (SSR + InteractiveServer), EFCore + SQLite, Bootstrap 5.
 
 Основан на проекте [MathEx](https://github.com/RuDeNoID814/MathEx).
 
@@ -58,9 +69,11 @@
 
 </details>
 
----
+</details>
 
-### ABC
+<details>
+<summary><b>⚙️ ABC</b> — 5 практик <sup>C++ + Assembly</sup></summary>
+<br>
 
 <details>
 <summary><a href="./ABC/Practice-1">Практика 1</a></summary>
@@ -105,5 +118,26 @@
 <summary><a href="./ABC/Practice-5">Практика 5</a></summary>
 
 Написать ассемблерную вставку, которая посчитает факториал числа. Функция должна вызываться рекурсивно с использованием стека.
+
+</details>
+
+</details>
+
+---
+
+## 🎓 2 курс
+
+<details open>
+<summary><b>☕ Java</b> — 1 практика</summary>
+<br>
+
+<details>
+<summary><a href="./Java/lab1">Практика 1</a> <img src="https://img.shields.io/badge/progress-4%2F8-yellow?style=flat-square" alt="progress"></summary>
+
+**Практика 1** — Работа с консольными утилитами JDK (`javac`, `java`) без IDE. Пока сделал 4 шага: hello world в одной папке, разделение на `src/` и `bin/`, два связанных класса, подключение внешнего `.class` через classpath.
+
+[*Перейти к практике*](https://github.com/ulearn-me-csu-java/javac/blob/master/Prakticheskoe_zadanie_1_Konsolnye_utility_JDK.pdf)
+
+</details>
 
 </details>
